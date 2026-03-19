@@ -8,14 +8,19 @@ version = "0.1.0"
 authors = [
   { name="ccYHM86" },
 ]
-description = "A repository for ccideas-mcp projects and experiments."
+description = "A professional async echo server library and CLI."
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
 ]
+
+[project.scripts]
+ccideas-mcp = "ccideas_mcp.main:main"
 
 [project.urls]
 "Homepage" = "https://github.com/ccYHM86/ccideas-mcp"
