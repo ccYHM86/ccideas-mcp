@@ -1,0 +1,6 @@
+apiVersion: v2
+name: ccideas-mcp
+description: A Helm chart for ccideas-mcp echo server
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
